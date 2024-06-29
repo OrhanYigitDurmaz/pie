@@ -28,3 +28,9 @@ jobs:
     - name: Run Tests
       run: |
         python mysite/manage.py test
+    - name: Run the server
+      run: |
+        python mysite/manage.py runserver $PORT
+    - name: Show port and ip
+      run: |
+        ip a
