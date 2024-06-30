@@ -30,7 +30,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["./devserver.sh"];
+          command = [".scripts/devserver.sh"];
           env = {
             PORT = "$PORT";
           };
